@@ -10,10 +10,16 @@ export default function RootLayout() {
         }}
       />
       <Stack.Screen
-        name="settings/index"
+        name="(options)/settings/index" // Caminho para a tela, isso é o roteamento estático.
         options={{
           title: "Settings",
-          headerShown: false
+          statusBarColor: "lightblue"
+        }}
+      />
+      <Stack.Screen
+        name="(options)/cliente/[id]"
+        options={{
+          title: "Client page"
         }}
       />
     </Stack>

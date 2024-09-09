@@ -1,8 +1,8 @@
 import { Button, StyleSheet, Text } from "react-native";
 
-export default function Botao() {
+export default function TextoDiferente() {
     return (
-        <Text style={styles.corTexto}>TEXTO UHUUUL</Text>
+        <Text style={styles.corTexto}>TEXTO COMPONENTIZADO UHUUUL</Text>
     )
 }
 
