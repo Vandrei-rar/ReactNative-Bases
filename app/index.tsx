@@ -1,8 +1,10 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
 import TextoDiferente from "../components/TextoDiferente"
+import { useContext } from "react";
 
 export default function Index() {
+
   return (
     <View
       style={{
