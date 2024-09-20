@@ -1,6 +1,11 @@
 import { Stack } from "expo-router";
+import { useFonts } from "expo-font";
 
 export default function RootLayout() {
+  useFonts({
+    'SofadiOne': require('@/assets/fonts/SofadiOne-Regular.ttf'),
+  });
+
   return (
     <Stack>
       <Stack.Screen name="index"
