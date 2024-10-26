@@ -20,7 +20,8 @@ export default function RootLayout() {
           name="(options)/settings/index" // Caminho para a tela, isso é o roteamento estático.
           options={{
             title: "Settings",
-            statusBarColor: "lightblue"
+            statusBarColor: "#6151c3",
+            headerShown: false,
           }}
         />
         <Stack.Screen
